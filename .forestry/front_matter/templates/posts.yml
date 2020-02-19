@@ -17,10 +17,5 @@ fields:
 - type: list
   name: tags
   label: tags
-- name: permalink
-  type: text
-  config:
-    required: false
-  label: Permalink
 pages:
 - _posts/2020-02-19-about.md
