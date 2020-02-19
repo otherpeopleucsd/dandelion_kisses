@@ -14,12 +14,15 @@
 
   {{ content}}
 
-  <div class="category_header">ALL POETRY</div>
+  <div class="page_content">
 
+  <div class="archive_header">ALL POETRY</div>
   {% for post in site.posts %}
 
-  <div class="archive_container">
 
+
+
+  <div class="archive_container">
     <div class="post_title">
       <h1>
         <a href="{{site.baseurl}}{{ post.url }}">
@@ -32,10 +35,11 @@
       <div class="divider"></div>
       <!-- {{ post.content }} -->
       <div class="archive_postsubheader"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time></div>
-
     </div>
   </div>
   {% endfor %}
+
+
 
 
 
@@ -43,7 +47,7 @@
 
 
 
-
+</div>
 
 
 

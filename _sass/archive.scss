@@ -4,17 +4,19 @@
 // }
 
 .archive_container {
-  width: 80%;
+
   margin: auto;
   color: #909090;
+  padding-bottom: 50px;
+
+
 }
 
 .archive_info {
-
-
-  display: flex;
-  width: 350px;
+  display: inline-flex;
+  width: initial;
   text-align: left;
+
 }
 
 .archive_postheader {
@@ -24,6 +26,7 @@
   font-size: 0.9rem;
   text-transform: uppercase;
   line-height: inherit;
+  padding-right: .5rem;
 }
 
 .archive_postsubheader {
@@ -32,4 +35,28 @@
   font-weight: 100;
   font-size: 0.9rem;
   line-height: inherit;
+  padding-left: .5rem;
 }
+
+.archive_header {
+    font-size: 0.7rem;
+    padding: 0px;
+    text-align: left;
+    padding: 25px 0 25px 0;
+  }
+  
+
+
+@media only screen and (max-width: 728px) {
+    .archive_postheader {
+     padding-right: 0px;
+     width: 30%;
+    } 
+
+    .archive_postsubheader {
+        padding-right: 0px;
+        margin: auto;
+       } 
+
+ }
+ 
