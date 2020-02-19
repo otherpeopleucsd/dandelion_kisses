@@ -4,10 +4,8 @@ header {
 }
 
 svg {
-    width: 4rem;
+    width: 3rem;
 }
-
-
 
 .header_container {
   width: 90%;
@@ -23,7 +21,7 @@ svg {
 
 .site_nav {
   font-family: "basier_circleregular";
-  font-size: 1rem;
+  font-size: .9rem;
   width: 50%;
   text-align: right;
   line-height: 25px;
@@ -39,4 +37,11 @@ svg {
     text-decoration: line-through;
     cursor: pointer;
   }
+}
+
+
+@media only screen and (max-width: 728px) {
+   .header_container {
+    padding: 25px 0 25px 0;
+   } 
 }
