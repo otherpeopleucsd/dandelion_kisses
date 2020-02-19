@@ -1,0 +1,70 @@
+h3 {
+  font-family: "basier_circleregular";
+  font-weight: 100;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  line-height: inherit;
+  margin: auto;
+  padding: 20px;
+}
+
+h4 {
+  font-family: "basier_circleregular";
+  font-weight: 100;
+  font-size: 0.9rem;
+  line-height: inherit;
+  margin: auto;
+  padding: 20px;
+}
+
+.landing {
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.post_container {
+  font-size: 0.9rem;
+  color: #909090;
+  font-family: "basier_circleregular";
+  background-color: #f8f5f0;
+}
+
+.info {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  width: 300px;
+}
+
+.divider {
+  margin: auto;
+  width: 45px;
+  height: 0.8px;
+  background-color: #9f9f9f;
+}
+
+.category_header {
+  font-size: 0.7rem;
+  padding: 50px;
+  text-align: center;
+}
+
+article {
+  text-align: center;
+  padding: 75px 0 75px 0;
+
+  h2 {
+    a {
+      font-family: "Vollkorn", serif;
+      font-style: italic;
+      font-weight: 100;
+      font-size: 3rem;
+      text-decoration: none;
+      color: #202020;
+    }
+    a:hover {
+      text-decoration: line-through;
+    }
+  }
+}
