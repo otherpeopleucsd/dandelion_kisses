@@ -4,7 +4,7 @@
 // }
 
 article {
-  width: 90%;
+  width: 45%;
   margin: auto;
 }
 
@@ -38,6 +38,21 @@ article {
   color: #909090;
   font-family: "basier_circleregular";
   background-color: #ffffff;
+}
+
+.art_container {
+  font-size: 0.9rem;
+  color: #909090;
+  font-family: "basier_circleregular";
+  background-color: #202020;
+}
+
+.art_subcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  flex: 1;
+
 }
 
 .post_subheader {
@@ -92,5 +107,13 @@ article {
     a:hover {
       text-decoration: line-through;
     }
+  }
+}
+
+
+@media only screen and (max-width: 728px) {
+  article {
+    width: 90%;
+    margin: auto;
   }
 }

@@ -31,3 +31,36 @@
     text-decoration: line-through;
   }
 }
+
+
+.art_title {
+    font-family: "Vollkorn", serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 3rem;
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 4rem;
+    a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+    a:hover {
+      text-decoration: line-through;
+    }
+  }
+  
+
+.art_title img {
+
+    max-height: 300px;
+}
+
+
+@media only screen and (max-width: 728px) {
+    .art_title img {
+        max-height: 100%;
+      width: 100%;
+
+    }
+  }

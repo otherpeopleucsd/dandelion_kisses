@@ -17,7 +17,7 @@ svg { width: 3rem; }
 
 .site_title { font-size: 1.5rem; width: 50%; }
 
-.site_nav { font-family: "basier_circleregular"; font-size: .9rem; width: 50%; text-align: right; line-height: 25px; }
+.site_nav { margin-top: -8px; font-family: "basier_circleregular"; font-size: .9rem; width: 50%; text-align: right; line-height: 25px; }
 
 .site_nav a { text-decoration: none; padding-left: 25px; color: #202020; }
 
@@ -31,7 +31,7 @@ footer { background-color: #202020; }
 
 .featured_image { position: fixed; z-index: -100; opacity: .8; }
 
-article { width: 90%; margin: auto; }
+article { width: 45%; margin: auto; }
 
 .index_postheader { font-family: "basier_circleregular"; font-weight: 100; font-size: 0.9rem; text-transform: uppercase; line-height: inherit; margin: auto; padding: 20px; }
 
@@ -40,6 +40,10 @@ article { width: 90%; margin: auto; }
 .landing { width: 100vw; height: 100vh; z-index: -1; }
 
 .post_container { font-size: 0.9rem; color: #909090; font-family: "basier_circleregular"; background-color: #ffffff; }
+
+.art_container { font-size: 0.9rem; color: #909090; font-family: "basier_circleregular"; background-color: #202020; }
+
+.art_subcontainer { display: flex; flex-direction: row; flex-flow: row wrap; flex: 1; }
 
 .post_subheader { display: flex; }
 
@@ -59,6 +63,8 @@ article h2 a { font-family: "Vollkorn", serif; font-style: italic; font-weight: 
 
 article h2 a:hover { text-decoration: line-through; }
 
+@media only screen and (max-width: 728px) { article { width: 90%; margin: auto; } }
+
 .post_content { line-height: 1rem; width: 80%; margin: auto; padding: 150px 0 150px 0; }
 
 .post_author { text-transform: uppercase; padding-right: 15px; font-size: 0.9rem; color: #909090; font-family: "basier_circleregular"; }
@@ -70,6 +76,16 @@ article h2 a:hover { text-decoration: line-through; }
 .post_title a { text-decoration: none; color: #202020; }
 
 .post_title a:hover { text-decoration: line-through; }
+
+.art_title { font-family: "Vollkorn", serif; font-style: italic; font-weight: 100; font-size: 3rem; text-decoration: none; color: #ffffff; line-height: 4rem; }
+
+.art_title a { text-decoration: none; color: #ffffff; }
+
+.art_title a:hover { text-decoration: line-through; }
+
+.art_title img { max-height: 300px; }
+
+@media only screen and (max-width: 728px) { .art_title img { max-height: 100%; width: 100%; } }
 
 .page_content { text-align: left; padding: 150px 0 150px 0; width: 80%; margin: auto; }
 

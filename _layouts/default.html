@@ -14,56 +14,82 @@
 
   <body>
     <div class="featured_image">
-  <img src="{{site.baseurl}}/assets/images/003.jpg">
+      <img src="{{site.baseurl}}/assets/images/003.jpg">
 
-  </div>
+    </div>
 
-  
+
     <div class="landing"></div>
-  
+
     <div class="post_container">
-  
       <div class="category_header">RECENT POETRY</div>
-
-
-
-
-
-
-
-
-
-
 
       {% for post in site.categories.poetry %}
 
       <article>
 
         <div class="post_title">
-        <h1>
-          <a href="{{site.baseurl}}{{ post.url }}">
-            {{ post.title }}
-          </a>
-        </h1>
-      </div>
+          <h1>
+            <a href="{{site.baseurl}}{{ post.url }}">
+              {{ post.title }}
+            </a>
+          </h1>
+        </div>
         <div class="info">
           <div class="index_postheader">{{ post.author }}</div>
           <div class="divider"></div>
           <!-- {{ post.content }} -->
-          <div class="index_postsubheader"><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time></div>
-  
+          <div class="index_postsubheader"><time
+              datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time></div>
+
       </article>
       {% endfor %}
-  
+
       <div class="category_footer"><a>SEE MORE</a></div>
-  
     </div>
+
+
+    <div class="art_container">
+      <div class="category_header">RECENT ART</div>
+      <div class="art_subcontainer">
+
+
+        {% for post in site.categories.art %}
+
+        <article>
+
+          <div class="art_title">
+            <img src="{{site.baseurl}}{{ post.image }}">
+            <h1>
+              <a href="{{site.baseurl}}{{ post.url }}">
+    
+                {{ post.title }}
+              </a>
+            </h1>
+          </div>
+          <div class="info">
+            <div class="index_postheader">{{ post.author }}</div>
+            <div class="divider"></div>
+            <!-- {{ post.content }} -->
+            <div class="index_postsubheader"><time
+                datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time></div>
+
+        </article>
+        {% endfor %}
+
+       
+      </div>
+
+      <div class="category_footer"><a>SEE MORE</a></div>
     </div>
-  
-  
+
+
     </div>
-  
-    </body>
+
+
+    </div>
+
+  </body>
 
   {% include footer.html %}
 
