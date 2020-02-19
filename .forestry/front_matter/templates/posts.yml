@@ -8,12 +8,12 @@ fields:
 - type: text
   name: title
   label: title
+- type: text
+  name: author
+  label: author
 - type: list
   name: categories
   label: categories
 - type: list
   name: tags
   label: tags
-- type: text
-  name: author
-  label: author
