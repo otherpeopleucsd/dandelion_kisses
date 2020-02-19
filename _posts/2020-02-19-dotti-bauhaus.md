@@ -2,9 +2,9 @@
 layout: post
 title: Dotti (Bauhaus)
 author: Czar Catstick
-categories: []
-tags:
+categories:
 - art
+tags: []
 image: "/uploads/art001.png"
 
 ---
