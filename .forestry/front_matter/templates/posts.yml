@@ -18,4 +18,5 @@ fields:
   name: tags
   label: tags
 pages:
+- _posts/2020-02-19-a-litany-for-survival.md
 - _posts/2020-02-19-about.md
