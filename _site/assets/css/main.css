@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Vollkorn:400,400i,700,700i&display=swap");
 @font-face { font-family: "basier_circleregular"; src: url("../../assets/fonts/basiercircle-regular-webfont.eot"); src: url("../../assets/fonts/basiercircle-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/basiercircle-regular-webfont.woff2") format("woff2"), url("../assets/fonts/basiercircle-regular-webfont.woff") format("woff"), url("../../assets/fonts/basiercircle-regular-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 
-body { background: white; color: #202020; font-family: "basier_circleregular"; font-size: 0.9rem; line-height: 25px; margin: 0; padding: 0; }
+body { background: white; color: #202020; font-family: "basier_circleregular"; font-size: 0.9rem; margin: 0; padding: 0; }
 
 header { position: fixed; width: 100%; }
 
@@ -33,6 +33,8 @@ h4 { font-family: "basier_circleregular"; font-weight: 100; font-size: 0.9rem; l
 
 .post_container { font-size: 0.9rem; color: #909090; font-family: "basier_circleregular"; background-color: #f8f5f0; }
 
+.post_subheader { display: flex; }
+
 .info { display: flex; margin: auto; text-align: center; width: 300px; }
 
 .divider { margin: auto; width: 45px; height: 0.8px; background-color: #9f9f9f; }
@@ -50,5 +52,11 @@ article h2 a { font-family: "Vollkorn", serif; font-style: italic; font-weight: 
 article h2 a:hover { text-decoration: line-through; }
 
 .post_content { line-height: 1rem; width: 80%; margin: auto; padding: 200px 0 200px 0; }
+
+.post_author { text-transform: uppercase; padding-right: 15px; font-size: 0.9rem; color: #909090; font-family: "basier_circleregular"; }
+
+.post_date { padding-left: 15px; font-size: 0.9rem; color: #909090; font-family: "basier_circleregular"; }
+
+.post-title { font-family: "Vollkorn", serif; font-style: italic; font-weight: 100; font-size: 3rem; text-decoration: none; color: #202020; line-height: 4rem; }
 
 /*# sourceMappingURL=main.css.map */
