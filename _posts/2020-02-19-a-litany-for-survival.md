@@ -2,7 +2,8 @@
 layout: post
 title: A Litany for Survival
 author: AUDRE LORDE
-categories: []
+categories:
+- poetry
 tags: []
 
 ---
