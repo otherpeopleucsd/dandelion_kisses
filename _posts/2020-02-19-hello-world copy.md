@@ -5,7 +5,7 @@ categories:
 - poetry
 tags:
 - cold
-author: author name
+author: Pepper Hayuki
 
 ---
 **Hello world**, this is my first Jekyll blog post.
