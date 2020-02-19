@@ -12,38 +12,41 @@
   {% include header.html %}
   {{ content}}
 
-  <div class="featured_image">
-<img src="../../assets/images/003.jpg">
-</div>
-
-  <div class="landing"></div>
-
-  <div class="post_container">
-
-    <div class="category_header">RECENT POETRY</div>
-
-    {% for post in site.posts limit:3 %}
-    <article>
-      <h2>
-        <a href="{{ post.url }}">
-          {{ post.title }}
-        </a>
-      </h2>
-      <div class="info">
-        <h3>{{ post.author }}</h3>
-        <div class="divider"></div>
-        <!-- {{ post.content }} -->
-        <h4><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time></h4>
-
-    </article>
-    {% endfor %}
-
-
-
+  <body>
+    <div class="featured_image">
+  <img src="../../assets/images/003.jpg">
   </div>
-
-
-  </div>
+  
+    <div class="landing"></div>
+  
+    <div class="post_container">
+  
+      <div class="category_header">RECENT POETRY</div>
+  
+      {% for post in site.posts limit:3 %}
+      <article>
+        <h2>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h2>
+        <div class="info">
+          <h3>{{ post.author }}</h3>
+          <div class="divider"></div>
+          <!-- {{ post.content }} -->
+          <h4><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time></h4>
+  
+      </article>
+      {% endfor %}
+  
+      <div class="category_footer"><a>SEE MORE</a></div>
+  
+    </div>
+  
+  
+    </div>
+  
+    </body>
 
   {% include footer.html %}
 

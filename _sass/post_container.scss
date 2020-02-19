@@ -50,6 +50,20 @@ h4 {
   text-align: center;
 }
 
+.category_footer {
+  font-size: 0.7rem;
+  padding: 50px;
+  text-align: center;
+  a{
+
+
+  }
+  a:hover{
+    text-decoration: line-through;
+    cursor: pointer;
+  }
+}
+
 article {
   text-align: center;
   padding: 75px 0 75px 0;

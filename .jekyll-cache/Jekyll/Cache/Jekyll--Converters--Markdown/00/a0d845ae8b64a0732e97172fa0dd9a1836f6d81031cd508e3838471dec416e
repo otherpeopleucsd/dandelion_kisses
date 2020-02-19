@@ -1,104 +1,11 @@
-<!DOCTYPE html>
-<html lang="en-US">
+I"¡<!-- 
+## You're ready to go!
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
-  <title>Hello World - </title>
-  <link rel="stylesheet" href="/assets/css/main.css">
-</head>
+Start developing your Jekyll website. -->
 
 <body>
-  <header>
-    <div class="header_container">
-        <div class="site_title">
-
-            <a href="index.html">
-            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 253 184">
-                <defs>
-                    <style>
-                        .cls-1 {
-                            fill: #252328;
-                        }
-                    </style>
-                </defs>
-                <title>Untitled-6</title>
-                <path class="cls-1"
-                    d="M834.46,508.33A91.63,91.63,0,0,0,800,515a92,92,0,1,0,0,170.61,92,92,0,1,0,34.5-177.31Zm-69,180.5A88.5,88.5,0,1,1,795.37,517a92,92,0,0,0,0,166.59A88.28,88.28,0,0,1,765.46,688.83Zm69,0a88.22,88.22,0,0,1-29.9-5.2,92,92,0,0,0,0-166.59,88.5,88.5,0,1,1,29.9,171.79Z"
-                    transform="translate(-673.46 -508.33)" />
-            </svg>
-        </a>
-
-        </div>
-
-        <div class="site_nav">
-            <a href="index.html">home</a>
-            <a href="about.html">about</a>
-            <a>submissions</a>
-            <br>
-            <a href="about.html">poetry</a>
-            <a>art</a>
-        </div>
-    </div>
-</header>
-  <!DOCTYPE html>
-<html lang="en-US">
-
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
-  <title>Hello World - </title>
-  <link rel="stylesheet" href="/assets/css/main.css">
-</head>
-
-<body>
-
-
-
-
-
-
-
-
-<div class="post_content">
-
-    <h1 class="post-title p-name" itemprop="name headline">Hello World</h1>
-    <p class="post-meta">
-          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span class="p-author h-card" itemprop="name">Pepper Hayuki </span></span>|<time class="dt-published" datetime="2020-02-19T00:00:00-08:00" itemprop="datePublished">
-        Feb 19, 2020
-      </time></p>
-
-      <br>
-
-  <p><strong>Hello world</strong>, this is my first Jekyll blog post.</p>
-
-  </div>
-
-  <div class="featured_image">
-<img src="../../assets/images/003.jpg">
-</div>
-
-
-
-   
-
-
-
-  </div>
-
-
-  </div>
-
-
-
-</body>
-
-</html>
-
-  <body>
     <div class="featured_image">
-  <img src="../../assets/images/003.jpg">
+  <img src="../../assets/images/003.jpg" />
   </div>
   
     <div class="landing"></div>
@@ -121,7 +28,7 @@
  -->
           <h4><time datetime="2020-02-19">19 February 2020</time></h4>
   
-      </article>
+      &lt;/article&gt;
       
       <article>
         <h2>
@@ -270,23 +177,16 @@
  -->
           <h4><time datetime="2020-02-19">19 February 2020</time></h4>
   
-      </article>
+      &lt;/article&gt;
       
   
-      <div class="category_footer"><a>SEE MORE</a></div>
-  
-    </div>
   
   
     </div>
   
-    </body>
-
-  <footer>
-    <div class="footer_title">Other People Â© 2020<br>9500 Gilman Dr</div>
-
-</footer>
-
-</body>
-
-</html>
+  
+    &lt;/div&gt;
+  
+    &lt;/body&gt;
+</article></div></article></div></body>
+:ET

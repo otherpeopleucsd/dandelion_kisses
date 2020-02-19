@@ -39,10 +39,16 @@ h4 { font-family: "basier_circleregular"; font-weight: 100; font-size: 0.9rem; l
 
 .category_header { font-size: 0.7rem; padding: 50px; text-align: center; }
 
+.category_footer { font-size: 0.7rem; padding: 50px; text-align: center; }
+
+.category_footer a:hover { text-decoration: line-through; cursor: pointer; }
+
 article { text-align: center; padding: 75px 0 75px 0; }
 
 article h2 a { font-family: "Vollkorn", serif; font-style: italic; font-weight: 100; font-size: 3rem; text-decoration: none; color: #202020; }
 
 article h2 a:hover { text-decoration: line-through; }
+
+.post_content { line-height: 1rem; width: 80%; margin: auto; padding: 200px 0 200px 0; }
 
 /*# sourceMappingURL=main.css.map */
