@@ -35,8 +35,6 @@ so their dreams will not reflect
 
 the death of ours;
 
- 
-
 For those of us
 
 who were imprinted with fear
@@ -56,8 +54,6 @@ For all of us
 this instant and this triumph
 
 We were never meant to survive.
-
- 
 
 And when the sun rises we are afraid
 
@@ -92,8 +88,6 @@ nor welcomed
 but when we are silent
 
 we are still afraid
-
- 
 
 So it is better to speak
 
