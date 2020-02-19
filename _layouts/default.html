@@ -45,7 +45,7 @@
       </article>
       {% endfor %}
 
-      <div class="category_footer"><a>SEE MORE</a></div>
+      <div class="category_footer"><a href="{{{ site.url }}{{ site.baseurl }}/poetry">SEE MORE</a>
     </div>
 
 
@@ -59,7 +59,9 @@
         <article>
 
           <div class="art_title">
+            <a href="{{site.baseurl}}{{ post.url }}">
             <img src="{{site.baseurl}}{{ post.image }}">
+            </a>
             <h1>
               <a href="{{site.baseurl}}{{ post.url }}">
     

@@ -70,7 +70,7 @@ article {
   margin: auto;
   width: 45px;
   height: 1px;
-  background-color: #9f9f9f;
+  background-color: #909090;
 }
 
 .category_header {
@@ -84,6 +84,8 @@ article {
   padding: 50px;
   text-align: center;
   a {
+    color: #909090;
+    text-decoration: none;
   }
   a:hover {
     text-decoration: line-through;
