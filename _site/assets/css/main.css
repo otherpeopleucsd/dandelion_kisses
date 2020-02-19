@@ -1,0 +1,29 @@
+@font-face { font-family: "basier_circleregular"; src: url("../../assets/fonts/basiercircle-regular-webfont.eot"); src: url("../../assets/fonts/basiercircle-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/basiercircle-regular-webfont.woff2") format("woff2"), url("../assets/fonts/basiercircle-regular-webfont.woff") format("woff"), url("../../assets/fonts/basiercircle-regular-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+
+body { background: white; color: #202020; font-family: "basier_circleregular"; margin: 0; padding: 0; }
+
+.landing { background-color: yellow; width: 100vw; height: 100vh; z-index: -1; }
+
+.post_container { font-size: 1rem; font-family: "basier_circleregular"; padding: 125px 0 125px 0; margin: auto; background-color: #f8f5f0; }
+
+article { text-align: center; padding: 50px 0 50px 0; }
+
+article h2 a { text-decoration: none; color: #202020; }
+
+article h2 a:hover { text-decoration: line-through; }
+
+header { position: fixed; width: 100%; }
+
+svg { width: 4rem; }
+
+.header_container { width: 90%; display: flex; margin: auto; padding: 50px 0 50px 0; }
+
+.site_title { font-size: 1.5rem; width: 50%; }
+
+.site_nav { font-family: "basier_circleregular"; font-size: 1rem; width: 50%; text-align: right; line-height: 25px; }
+
+.site_nav a { text-decoration: none; padding-left: 25px; color: #202020; }
+
+.site_nav a:hover { text-decoration: line-through; cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */

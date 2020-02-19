@@ -1,0 +1,50 @@
+$backgroundColor: white;
+$bodyColor: #202020;
+$bodyFont: "basier_circleregular";
+
+body {
+  background: $backgroundColor;
+  color: $bodyColor;
+  font-family: $bodyFont;
+  margin: 0;
+  padding: 0;
+}
+
+// * {
+//   border-style: solid;
+//   border-width: 1px;
+// }
+
+.landing {
+  background-color: yellow;
+
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.post_container {
+
+  font-size: 1rem;
+  font-family: "basier_circleregular";
+  padding: 125px 0 125px 0;
+
+  margin: auto;
+  background-color: #f8f5f0;
+
+}
+
+article {
+text-align: center;
+padding: 50px 0 50px 0;
+
+  h2 {
+    a {
+      text-decoration: none;
+      color: #202020
+    }
+    a:hover{
+      text-decoration: line-through;
+    }
+  }
+}
