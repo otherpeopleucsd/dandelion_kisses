@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Hello World
-categories:
-- poetry
+categories: []
 tags:
 - cold
 author: Pepper Hayuki
