@@ -17,6 +17,11 @@ fields:
 - type: list
   name: tags
   label: tags
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: image
 pages:
 - _posts/2020-02-19-a-litany-for-survival.md
 - _posts/2020-02-19-about.md
