@@ -3,6 +3,12 @@
 
 body { background: white; color: #202020; font-family: "basier_circleregular"; font-size: 0.9rem; margin: 0; padding: 0; }
 
+h1 { font-family: "Vollkorn", serif; font-style: italic; font-weight: 100; font-size: 3rem; }
+
+h2 { font-family: "basier_circleregular"; text-transform: uppercase; font-size: .9rem; }
+
+p { line-height: 25px; }
+
 header { position: fixed; width: 100%; }
 
 svg { width: 3rem; }
@@ -27,19 +33,19 @@ footer { background-color: #202020; }
 
 article { width: 90%; margin: auto; }
 
-h3 { font-family: "basier_circleregular"; font-weight: 100; font-size: 0.9rem; text-transform: uppercase; line-height: inherit; margin: auto; padding: 20px; }
+.index_postheader { font-family: "basier_circleregular"; font-weight: 100; font-size: 0.9rem; text-transform: uppercase; line-height: inherit; margin: auto; padding: 20px; }
 
-h4 { font-family: "basier_circleregular"; font-weight: 100; font-size: 0.9rem; line-height: inherit; margin: auto; padding: 20px; }
+.index_postsubheader { font-family: "basier_circleregular"; font-weight: 100; font-size: 0.9rem; line-height: inherit; margin: auto; padding: 20px; }
 
 .landing { width: 100vw; height: 100vh; z-index: -1; }
 
-.post_container { font-size: 0.9rem; color: #909090; font-family: "basier_circleregular"; background-color: #f8f5f0; }
+.post_container { font-size: 0.9rem; color: #909090; font-family: "basier_circleregular"; background-color: #ffffff; }
 
 .post_subheader { display: flex; }
 
 .info { display: flex; margin: auto; text-align: center; width: 300px; }
 
-.divider { margin: auto; width: 45px; height: 0.8px; background-color: #9f9f9f; }
+.divider { margin: auto; width: 45px; height: 1px; background-color: #9f9f9f; }
 
 .category_header { font-size: 0.7rem; padding: 50px; text-align: center; }
 
@@ -59,6 +65,20 @@ article h2 a:hover { text-decoration: line-through; }
 
 .post_date { padding-left: 15px; font-size: 0.9rem; color: #909090; font-family: "basier_circleregular"; }
 
-.post-title { font-family: "Vollkorn", serif; font-style: italic; font-weight: 100; font-size: 3rem; text-decoration: none; color: #202020; line-height: 4rem; }
+.post_title { font-family: "Vollkorn", serif; font-style: italic; font-weight: 100; font-size: 3rem; text-decoration: none; color: #202020; line-height: 4rem; }
+
+.post_title a { text-decoration: none; color: #202020; }
+
+.post_title a:hover { text-decoration: line-through; }
+
+.page_content { text-align: left; padding: 150px 0 150px 0; width: 80%; margin: auto; }
+
+.archive_container { width: 80%; margin: auto; color: #909090; }
+
+.archive_info { display: flex; width: 350px; text-align: left; }
+
+.archive_postheader { font-family: "basier_circleregular"; font-weight: 100; font-size: 0.9rem; text-transform: uppercase; line-height: inherit; }
+
+.archive_postsubheader { font-family: "basier_circleregular"; font-weight: 100; font-size: 0.9rem; line-height: inherit; }
 
 /*# sourceMappingURL=main.css.map */

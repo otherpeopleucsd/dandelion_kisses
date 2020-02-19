@@ -1,29 +1,33 @@
 .post_author {
-    text-transform: uppercase;
-    padding-right: 15px;
+  text-transform: uppercase;
+  padding-right: 15px;
 
-    font-size: 0.9rem;
-    color: #909090;
-    font-family: "basier_circleregular";
-
+  font-size: 0.9rem;
+  color: #909090;
+  font-family: "basier_circleregular";
 }
 
 .post_date {
-padding-left: 15px;
+  padding-left: 15px;
 
-font-size: 0.9rem;
-color: #909090;
-font-family: "basier_circleregular";
-
+  font-size: 0.9rem;
+  color: #909090;
+  font-family: "basier_circleregular";
 }
 
-.post-title {
-    font-family: "Vollkorn", serif;
-    font-style: italic;
-    font-weight: 100;
-    font-size: 3rem;
+.post_title {
+  font-family: "Vollkorn", serif;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 3rem;
+  text-decoration: none;
+  color: #202020;
+  line-height: 4rem;
+  a {
     text-decoration: none;
     color: #202020;
-line-height: 4rem;
-
+  }
+  a:hover {
+    text-decoration: line-through;
+  }
 }

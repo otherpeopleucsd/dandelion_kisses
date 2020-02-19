@@ -1,0 +1,35 @@
+// * {
+//     border-style: solid;
+//     border-width: 1px;
+// }
+
+.archive_container {
+  width: 80%;
+  margin: auto;
+  color: #909090;
+}
+
+.archive_info {
+
+
+  display: flex;
+  width: 350px;
+  text-align: left;
+}
+
+.archive_postheader {
+
+  font-family: "basier_circleregular";
+  font-weight: 100;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  line-height: inherit;
+}
+
+.archive_postsubheader {
+
+  font-family: "basier_circleregular";
+  font-weight: 100;
+  font-size: 0.9rem;
+  line-height: inherit;
+}

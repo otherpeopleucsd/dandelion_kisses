@@ -8,7 +8,7 @@ article {
   margin: auto;
 }
 
-h3 {
+.index_postheader {
   font-family: "basier_circleregular";
   font-weight: 100;
   font-size: 0.9rem;
@@ -18,7 +18,7 @@ h3 {
   padding: 20px;
 }
 
-h4 {
+.index_postsubheader {
   font-family: "basier_circleregular";
   font-weight: 100;
   font-size: 0.9rem;
@@ -37,7 +37,7 @@ h4 {
   font-size: 0.9rem;
   color: #909090;
   font-family: "basier_circleregular";
-  background-color: #f8f5f0;
+  background-color: #ffffff;
 }
 
 .post_subheader {
@@ -54,7 +54,7 @@ h4 {
 .divider {
   margin: auto;
   width: 45px;
-  height: 0.8px;
+  height: 1px;
   background-color: #9f9f9f;
 }
 
@@ -68,11 +68,9 @@ h4 {
   font-size: 0.7rem;
   padding: 50px;
   text-align: center;
-  a{
-
-
+  a {
   }
-  a:hover{
+  a:hover {
     text-decoration: line-through;
     cursor: pointer;
   }
