@@ -1,3 +1,4 @@
 ---
 layout: poetry
+permalink: /poetry
 ---
