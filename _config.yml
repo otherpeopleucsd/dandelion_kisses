@@ -2,3 +2,4 @@ url: "https://otherpeopleucsd.github.io" # the base hostname & protocol for your
 baseurl: "/dandelion_kisses" # the subpath of your site, e.g. /blog
 title: "Other People" # the name of your site, e.g. ACME Corp.
 future: true
+published: true
