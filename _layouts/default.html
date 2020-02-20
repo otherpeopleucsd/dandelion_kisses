@@ -14,8 +14,42 @@
 
   <body>
     <div class="featured_image">
-      <img src="{{site.baseurl}}/assets/images/003.jpg">
+      {% if page.image %}
+      <img class="image" src={{ page.image }} alt="Image" />
+      {% endif %}
+
+     
     </div>
+
+
+    <div class="featured_imageinfo">
+      {%- if page.piece_name -%}
+      {% for piece_name in page.piece_name %}
+      <span itemprop="piece_name" itemscope itemtype="http://schema.org/Person">
+          <span class="p-piece_name h-card" itemprop="name">{{ piece_name }} </span></span>
+      {%- if forloop.last == false %}, {% endif -%}
+      {% endfor %}
+      {%- endif -%}
+
+
+<br>
+      {%- if page.artist -%}
+      {% for artist in page.artist %}
+      <span itemprop="artist" itemscope itemtype="http://schema.org/Person">
+          <span class="p-artist h-card" itemprop="name">{{ artist }} </span></span>
+      {%- if forloop.last == false %}, {% endif -%}
+      {% endfor %}
+      {%- endif -%}
+, 
+      {%- if page.year -%}
+      {% for year in page.year %}
+      <span itemprop="year" itemscope itemtype="http://schema.org/Person">
+          <span class="p-year h-card" itemprop="name">{{ year }} </span></span>
+      {%- if forloop.last == false %}, {% endif -%}
+      {% endfor %}
+      {%- endif -%}
+    </div>
+
 
 
     <div class="landing"></div>
@@ -25,7 +59,7 @@
 
       {% for post in site.categories.poetry limit:3 %}
 
-      <article>
+      <article class="post">
 
         <div class="post_title">
           <h1>
@@ -55,7 +89,7 @@
 
         {% for post in site.categories.art limit:4 %}
 
-        <article>
+        <article class="art">
 
           <div class="art_title">
             <a href="{{site.baseurl}}{{ post.url }}">

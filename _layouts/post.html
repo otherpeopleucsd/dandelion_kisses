@@ -14,7 +14,6 @@
 
     <div class="post_content">
 
-
         <h1 class="post_title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
         <p class="post-meta">
 
@@ -50,7 +49,17 @@
 
         </p>
 
+
+        <article>
+            {% if page.image %}
+              <img class="image" src={{ page.image }} alt="Image"/>
+            {% endif %}
+          </article>
+
         <br>
+
+
+
 
         {{ content}}
 
