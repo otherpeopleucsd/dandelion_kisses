@@ -3,8 +3,7 @@ layout: post
 title: Hello World
 categories:
 - intro
-tags:
-- cold
+tags: []
 author: Pepper Hayuki
 
 ---
