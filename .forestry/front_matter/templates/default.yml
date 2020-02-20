@@ -2,17 +2,11 @@
 label: Default
 hide_body: true
 fields:
-- name: title
+- name: artist_name
   type: text
   config:
     required: false
-  label: title
-- name: layout
-  type: text
-  config:
-    required: false
-  label: layout
-  default: default
+  label: piece name
 - name: artist
   type: text
   config:
@@ -28,10 +22,16 @@ fields:
   config:
     maxSize: 250
   label: image
-- name: artist_name
+- name: layout
   type: text
   config:
     required: false
-  label: artist name
+  label: layout
+  default: default
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
 pages:
 - index.md
