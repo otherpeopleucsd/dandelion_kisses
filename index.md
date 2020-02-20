@@ -2,7 +2,7 @@
 layout: default
 title: Other People
 image: "/uploads/003.jpg"
-artist: ''
-year: ''
+artist: Hello
+year: "2020"
 
 ---
