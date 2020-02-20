@@ -3,7 +3,7 @@
 
 body { background: white; color: #202020; font-family: "basier_circleregular"; font-size: 0.9rem; margin: 0; padding: 0; }
 
-h1 { font-family: "Vollkorn", serif; font-style: italic; font-weight: 100; font-size: 3rem; }
+h1 { font-family: "Vollkorn", serif; font-style: italic; font-weight: 100; font-size: 3rem; line-height: -20px; }
 
 h2 { font-family: "basier_circleregular"; text-transform: uppercase; font-size: .9rem; }
 
@@ -84,6 +84,8 @@ article h2 a:hover { text-decoration: line-through; }
 
 .post_content img { width: 100%; }
 
+.post_image { padding: 50px 0 0px 0; width: 100%; }
+
 .post_author { text-transform: uppercase; padding-right: 15px; font-size: 0.9rem; color: #909090; font-family: "basier_circleregular"; }
 
 .post_date { padding-left: 15px; font-size: 0.9rem; color: #909090; font-family: "basier_circleregular"; }
@@ -114,7 +116,7 @@ article h2 a:hover { text-decoration: line-through; }
 
 .art_title_index img { max-height: 300px; }
 
-img:hover { opacity: 0.5; }
+.art_title_index img:hover { opacity: 0.5; }
 
 @media only screen and (max-width: 728px) { .art_title_index img { max-height: 100%; width: 100%; }
   .art_title_index { width: 100%; }

@@ -34,22 +34,22 @@
 }
 
 .post_title_index {
-    font-family: "Vollkorn", serif;
-    font-style: italic;
-    font-weight: 100;
-    font-size: 3rem;
+  font-family: "Vollkorn", serif;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 3rem;
+  text-decoration: none;
+  color: #202020;
+  line-height: 4rem;
+  margin: auto;
+  a {
     text-decoration: none;
     color: #202020;
-    line-height: 4rem;
-    margin: auto;
-    a {
-      text-decoration: none;
-      color: #202020;
-    }
-    a:hover {
-      text-decoration: line-through;
-    }
   }
+  a:hover {
+    text-decoration: line-through;
+  }
+}
 
 .art_title {
   font-family: "Vollkorn", serif;
@@ -59,7 +59,7 @@
   text-decoration: none;
   color: #ffffff;
   line-height: 4rem;
-  
+
   a {
     text-decoration: none;
     color: #ffffff;
@@ -70,32 +70,32 @@
 }
 
 .art_title_index {
-    font-family: "Vollkorn", serif;
-    font-style: italic;
-    font-weight: 100;
-    font-size: 3rem;
+  font-family: "Vollkorn", serif;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 3rem;
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 4rem;
+  margin: auto;
+  a {
     text-decoration: none;
     color: #ffffff;
-    line-height: 4rem;
-    margin: auto;
-    a {
-      text-decoration: none;
-      color: #ffffff;
-    }
-    a:hover {
-      text-decoration: line-through;
-    }
   }
+  a:hover {
+    text-decoration: line-through;
+  }
+}
 
-  .art_title_index img {
+.art_title_index img {
   max-height: 300px;
 }
-img:hover {
+.art_title_index img:hover {
   opacity: 0.5;
 }
 
 @media only screen and (max-width: 728px) {
-    .art_title_index img {
+  .art_title_index img {
     max-height: 100%;
     width: 100%;
   }
