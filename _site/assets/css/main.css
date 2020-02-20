@@ -15,9 +15,9 @@ svg { width: 3rem; }
 
 .header_container { width: 90%; display: flex; margin: auto; padding: 50px 0 50px 0; }
 
-.site_title { font-size: 1.5rem; width: 50%; }
+.site_title { font-size: 1.5rem; width: 30%; }
 
-.site_nav { margin-top: -8px; font-family: "basier_circleregular"; font-size: .9rem; width: 50%; text-align: right; line-height: 25px; }
+.site_nav { margin-top: -8px; font-family: "basier_circleregular"; font-size: .9rem; width: 70%; text-align: right; line-height: 25px; }
 
 .site_nav a { text-decoration: none; padding-left: 25px; color: #202020; }
 
@@ -30,10 +30,6 @@ footer { background-color: #202020; margin: auto; padding: 50px 0 50px 0; }
 .footer_title { color: white; text-align: center; }
 
 .newsletter_container { margin: auto; width: 100%; text-align: center; }
-
-input[type=text] { width: 200px; padding: 10px 20px; margin: 20px 0; background-color: white; color: #202020; border: none; }
-
-input, select { font-size: 100%; }
 
 .featured_image { position: fixed; z-index: -100; opacity: 0.8; }
 
@@ -109,11 +105,13 @@ img:hover { opacity: .5; }
 
 .archive_container { margin: auto; color: #909090; padding-bottom: 50px; }
 
+.archive_container img { width: 100%; }
+
 .archive_info { display: inline-flex; width: initial; text-align: left; }
 
-.archive_postheader { font-family: "basier_circleregular"; font-weight: 100; font-size: 0.9rem; text-transform: uppercase; line-height: inherit; padding-right: .5rem; }
+.archive_postheader { font-family: "basier_circleregular"; font-weight: 100; font-size: 0.9rem; text-transform: uppercase; line-height: inherit; padding-right: 0.5rem; }
 
-.archive_postsubheader { font-family: "basier_circleregular"; font-weight: 100; font-size: 0.9rem; line-height: inherit; padding-left: .5rem; }
+.archive_postsubheader { font-family: "basier_circleregular"; font-weight: 100; font-size: 0.9rem; line-height: inherit; padding-left: 0.5rem; }
 
 .archive_header { font-size: 0.7rem; padding: 0px; text-align: left; padding: 25px 0 25px 0; }
 

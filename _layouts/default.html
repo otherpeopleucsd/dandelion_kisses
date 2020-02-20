@@ -4,7 +4,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
-  <title>{{ page.title }} - {{ site.title }}</title>
+  <title>{{ page.title }}{{ site.title }}</title>
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 </head>
 
@@ -21,7 +21,7 @@
     <div class="landing"></div>
 
     <div class="post_container">
-      <div class="category_header">RECENT POETRY</div>
+      <div class="category_header">LTERATURE + POETRY</div>
 
       {% for post in site.categories.poetry limit:3 %}
 
@@ -49,7 +49,7 @@
 
 
     <div class="art_container">
-      <div class="category_header">RECENT ART</div>
+      <div class="category_header">ART</div>
       <div class="art_subcontainer">
 
 

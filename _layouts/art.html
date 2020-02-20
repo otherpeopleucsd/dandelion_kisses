@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>{{ page.title }}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+</head>
+
+<body>
+  {% include header.html %}
+
+
+  {{ content}}
+
+  <div class="page_content">
+
+    <div class="archive_header">ART</div>
+    {% for post in site.categories.art %}
+
+
+
+
+    <div class="archive_container">
+      <div class="post_title">
+        <a href="{{site.baseurl}}{{ post.url }}">
+          <img src="{{site.baseurl}}{{ post.image }}">
+        </a>
+        <h1>
+          <a href="{{site.baseurl}}{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h1>
+      </div>
+      <div class="archive_info">
+        <div class="archive_postheader">{{ post.author }}</div>
+        <div class="divider"></div>
+        <!-- {{ post.content }} -->
+        <div class="archive_postsubheader"><time
+            datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time></div>
+      </div>
+    </div>
+    {% endfor %}
+
+
+
+
+
+
+ 
+
+
+
+  </div>
+
+  <div class="category_footer"><a>SEE MORE</a></div>
+
+
+
+
+</body>
+
+{% include footer.html %}
+
+</body>
+
+</html>
