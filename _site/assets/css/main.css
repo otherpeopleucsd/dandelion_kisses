@@ -3,7 +3,7 @@
 
 body { background: white; color: #202020; font-family: "basier_circleregular"; font-size: 0.9rem; margin: 0; padding: 0; }
 
-h1 { font-family: "Vollkorn", serif; font-style: italic; font-weight: 100; font-size: 3rem; line-height: -20px; }
+h1 { font-family: "Vollkorn", serif; font-style: italic; font-weight: 100; font-size: 3rem; }
 
 h2 { font-family: "basier_circleregular"; text-transform: uppercase; font-size: .9rem; }
 
@@ -58,7 +58,7 @@ article { margin: auto; }
 
 .art_subcontainer { display: flex; flex-direction: row; flex-flow: row wrap; flex: 1; }
 
-.post_subheader { display: flex; }
+.post_subheader { display: flex; margin-top: -15px; }
 
 .info { display: flex; margin: auto; text-align: center; width: 300px; }
 
@@ -80,11 +80,13 @@ article h2 a:hover { text-decoration: line-through; }
 
 @media only screen and (max-width: 728px) { article { width: 90%; margin: auto; } }
 
-.post_content { line-height: 1rem; width: 80%; margin: auto; padding: 150px 0 150px 0; }
+.post_content { line-height: 1rem; width: 80%; margin: auto; padding: 150px 0 100px 0; }
 
 .post_content img { width: 100%; }
 
-.post_image { padding: 50px 0 0px 0; width: 100%; }
+.post_image { width: 100%; }
+
+@media only screen and (max-width: 728px) { .post_content { line-height: 1rem; width: 80%; margin: auto; padding: 125px 0 50px 0; } }
 
 .post_author { text-transform: uppercase; padding-right: 15px; font-size: 0.9rem; color: #909090; font-family: "basier_circleregular"; }
 
@@ -140,5 +142,15 @@ article h2 a:hover { text-decoration: line-through; }
 
 @media only screen and (max-width: 728px) { .archive_postheader { padding-right: 0px; width: 30%; }
   .archive_postsubheader { padding-right: 0px; margin: auto; } }
+
+.PageNavigation { font-family: "basier_circleregular"; text-transform: uppercase; font-size: .9rem; display: block; width: auto; overflow: hidden; width: 90%; margin: auto; padding-bottom: 50px; }
+
+.PageNavigation a { display: block; width: 50%; float: left; margin: 1em 0; text-decoration: none; color: #909090; }
+
+.PageNavigation a:hover { text-decoration: line-through; }
+
+.PageNavigation .next { text-align: right; }
+
+@media only screen and (max-width: 728px) { .PageNavigation { padding-bottom: 15px; } }
 
 /*# sourceMappingURL=main.css.map */

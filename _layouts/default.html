@@ -57,7 +57,7 @@
     <div class="post_container">
       <div class="category_header">LTERATURE + POETRY</div>
 
-      {% for post in site.categories.poetry limit:3 %}
+      {% for post in site.categories.poetry, site.categories.literature limit:3 %}
 
       <article class="post">
 
@@ -115,7 +115,7 @@
        
       </div>
 
-      <div class="category_footer"><a>SEE MORE</a></div>
+      <div class="category_footer"><a href="{{{ site.url }}{{ site.baseurl }}/art">SEE MORE</a></div>
     </div>
 
 

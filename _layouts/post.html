@@ -44,15 +44,11 @@
                     {%- endif -%}
                 </div>
             </div>
-
-
-
         </p>
-
 
         <div class="post_image">
             {% if page.image %}
-              <img class="image" src="{{site.baseurl}}{{ page.image }}" alt="Image"/>
+            <img src="{{site.baseurl}}{{ page.image }}">
             {% endif %}
         </div>
 
@@ -66,14 +62,19 @@
 
     </div>
 
-    <div class="featured_image">
-        <img src="../../assets/images/003.jpg">
-    </div>
 
 
 
 
 
+    <div class="PageNavigation">
+        {% if page.previous.url %}
+          <a class="prev" href="{{page.previous.url}}">< {{page.previous.title}}</a>
+        {% endif %}
+        {% if page.next.url %}
+          <a class="next" href="{{page.next.url}}">{{page.next.title}} ></a>
+        {% endif %}
+      </div>
 
 
     </div>
