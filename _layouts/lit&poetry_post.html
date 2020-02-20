@@ -46,14 +46,15 @@
             </div>
         </p>
 
-   
+
 
         <br>
 
 
 
 
-        {{ content}}
+
+        <div id="content">{{ content | newline_to_br }}</div>
 
 
     </div>
@@ -65,12 +66,13 @@
 
     <div class="PageNavigation">
         {% if page.previous.url %}
-          <a class="prev" href="{{site.baseurl}}{{page.previous.url}}">< {{page.previous.title}}</a>
-        {% endif %}
-        {% if page.next.url %}
-          <a class="next" href="{{site.baseurl}}{{page.next.url}}">{{page.next.title}} ></a>
-        {% endif %}
-      </div>
+        <a class="prev" href="{{site.baseurl}}{{page.previous.url}}">
+            < {{page.previous.title}}</a>
+                {% endif %}
+                {% if page.next.url %}
+                <a class="next" href="{{site.baseurl}}{{page.next.url}}">{{page.next.title}} ></a>
+                {% endif %}
+    </div>
 
 
     </div>

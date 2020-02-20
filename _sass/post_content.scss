@@ -21,6 +21,10 @@
 }
 
 
+#content br {display: none;}
+#content p br {display: inline;}
+
+
 
 @media only screen and (max-width: 728px) {
   .post_content {
