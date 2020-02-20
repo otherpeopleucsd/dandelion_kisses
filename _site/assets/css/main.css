@@ -58,7 +58,7 @@ article { margin: auto; }
 
 .art_subcontainer { display: flex; flex-direction: row; flex-flow: row wrap; flex: 1; }
 
-.post_subheader { display: flex; margin-top: -15px; }
+.post_subheader { display: flex; }
 
 .info { display: flex; margin: auto; text-align: center; width: 300px; }
 
