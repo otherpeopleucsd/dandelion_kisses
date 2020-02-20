@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Other People"
+title: Other People
+image: "/uploads/003.jpg"
+artist: ''
+year: ''
+
 ---
-
-<!-- ## You're ready to go!
-
-Start developing your Jekyll website. -->
