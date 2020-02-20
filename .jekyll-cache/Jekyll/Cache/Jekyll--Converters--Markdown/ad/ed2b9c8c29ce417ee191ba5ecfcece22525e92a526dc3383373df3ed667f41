@@ -1,52 +1,5 @@
-<!DOCTYPE html>
-<html lang="en-US">
-
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
-  <title>Submissions</title>
-  <link rel="stylesheet" href="/assets/css/main.css">
-</head>
-
-<body>
-  <header>
-    <div class="header_container">
-        <div class="site_title">
-
-            <a href="http://localhost:4000">
-            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 253 184">
-                <defs>
-                    <style>
-                        .cls-1 {
-                            fill: #202020;
-                        }
-                    </style>
-                </defs>
-                <title>Untitled-6</title>
-                <path class="cls-1"
-                    d="M834.46,508.33A91.63,91.63,0,0,0,800,515a92,92,0,1,0,0,170.61,92,92,0,1,0,34.5-177.31Zm-69,180.5A88.5,88.5,0,1,1,795.37,517a92,92,0,0,0,0,166.59A88.28,88.28,0,0,1,765.46,688.83Zm69,0a88.22,88.22,0,0,1-29.9-5.2,92,92,0,0,0,0-166.59,88.5,88.5,0,1,1,29.9,171.79Z"
-                    transform="translate(-673.46 -508.33)" />
-            </svg>
-        </a>
-
-        </div>
-
-        <div class="site_nav">
-            <a href="http://localhost:4000">home</a>
-            <a href="http://localhost:4000/about">about</a>
-            <a href="http://localhost:4000/submissions">submissions</a>
-            <br>
-            <a href="http://localhost:4000/literature">literature</a>
-            <a href="/poetry">poetry</a>
-            <a href="http://localhost:4000/art">art</a>
-
-
-        </div>
-    </div>
-</header>
-
-  <div class="page_content">
-  <h1 id="submissions">Submissions</h1>
+I"
+<h1 id="submissions">Submissions</h1>
 
 <p>SUBMISSIONS ARE: <strong>CLOSED<br />
 ‍</strong><br />
@@ -86,19 +39,4 @@ We take submissions by <a href="https://forms.gle/F3kq4mgm8fNE6DRY6">Google Form
 <p>Short and sweet, right?</p>
 
 <p>‍</p>
-
-</div>
- 
-
-
-  
-    </body>
-
-  <footer>
-    <div class="footer_title">Other People © 2020<br>Much love from 9500 Gilman Dr</div>
-
-</footer>
-
-</body>
-
-</html>
+:ET

@@ -9,6 +9,10 @@ h2 { font-family: "basier_circleregular"; text-transform: uppercase; font-size: 
 
 p { line-height: 25px; }
 
+a { color: #202020; }
+
+a:hover { text-decoration: none; }
+
 header { position: fixed; width: 100%; }
 
 svg { width: 3rem; }
