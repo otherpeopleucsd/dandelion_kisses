@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: lit&poetry_post
 title: Hello World
 categories:
 - intro

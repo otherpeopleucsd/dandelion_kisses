@@ -82,7 +82,7 @@ article h2 a:hover { text-decoration: line-through; }
 
 .post_content { line-height: 1rem; width: 80%; margin: auto; padding: 150px 0 100px 0; }
 
-.post_content img { width: 100%; }
+.post_content img { padding-top: 50px; width: 100%; }
 
 .post_image { width: 100%; }
 

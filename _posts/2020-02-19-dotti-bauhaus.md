@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: art_post
 title: Dotti (Bauhaus)
 author: Czar Catstick
 categories:

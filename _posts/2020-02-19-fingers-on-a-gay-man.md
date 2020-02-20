@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: lit&poetry_post
 title: Fingers on a Gay Man
 author: Zach Linge
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: lit&poetry_post
 title: A Litany for Survival
 author: AUDRE LORDE
 categories:

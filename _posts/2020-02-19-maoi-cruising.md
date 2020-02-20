@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: art_post
 title: Maoi Cruising
 author: Super Future Kid
 categories:
