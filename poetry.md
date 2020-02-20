@@ -1,5 +1,6 @@
 ---
 layout: poetry
-permalink: /poetry
-title: Poetry
+permalink: "/poetry"
+title: poetry
+
 ---
