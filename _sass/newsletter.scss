@@ -19,6 +19,9 @@ input[type=text] {
 
 
   @media only screen and (max-width: 728px) {
+    .newsletter {
+        padding: 50px 0 100px 0;
+    }
     input[type=text] {
         width: 80%;
 

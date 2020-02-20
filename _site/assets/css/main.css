@@ -13,7 +13,7 @@ header { position: fixed; width: 100%; }
 
 svg { width: 3rem; }
 
-.header_container { width: 90%; display: flex; margin: auto; padding: 50px 0 50px 0; }
+.header_container { width: 90%; display: flex; margin: auto; padding: 50px 0 0 0; }
 
 .site_title { font-size: 1.5rem; width: 30%; }
 
@@ -157,6 +157,7 @@ article h2 a:hover { text-decoration: line-through; }
 
 input[type=text] { width: 30%; padding: 12px 20px; font-size: .9rem; margin: 8px 0; box-sizing: border-box; border: none; background-color: white; color: #202020; }
 
-@media only screen and (max-width: 728px) { input[type=text] { width: 80%; } }
+@media only screen and (max-width: 728px) { .newsletter { padding: 50px 0 100px 0; }
+  input[type=text] { width: 80%; } }
 
 /*# sourceMappingURL=main.css.map */
