@@ -1,18 +1,31 @@
 footer {
     background-color: #202020;
 margin: auto;
+padding: 50px 0 50px 0;
 }
 
 .footer_title {
 
     color: white;
-    padding: 50px 0 50px 0;
+
     text-align: center;
 
 }
 
 .newsletter_container {
-padding: 20px;
+    margin: auto;
+    width: 100%;
     text-align: center;
-    height: 200px;
+
 }
+
+input[type=text] {
+    width: 200px;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: rgb(255, 255, 255);
+    color: #202020;
+    border: none;
+}
+
+input, select { font-size: 100%; }

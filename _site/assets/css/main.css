@@ -25,11 +25,15 @@ svg { width: 3rem; }
 
 @media only screen and (max-width: 728px) { .header_container { padding: 25px 0 25px 0; } }
 
-footer { background-color: #202020; margin: auto; }
+footer { background-color: #202020; margin: auto; padding: 50px 0 50px 0; }
 
-.footer_title { color: white; padding: 50px 0 50px 0; text-align: center; }
+.footer_title { color: white; text-align: center; }
 
-.newsletter_container { padding: 20px; text-align: center; height: 200px; }
+.newsletter_container { margin: auto; width: 100%; text-align: center; }
+
+input[type=text] { width: 200px; padding: 10px 20px; margin: 20px 0; background-color: white; color: #202020; border: none; }
+
+input, select { font-size: 100%; }
 
 .featured_image { position: fixed; z-index: -100; opacity: 0.8; }
 
