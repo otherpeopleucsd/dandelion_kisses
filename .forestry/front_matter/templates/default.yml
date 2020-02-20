@@ -1,4 +1,25 @@
 ---
 label: Default
 hide_body: true
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  default: default
+- name: artist
+  type: text
+  config:
+    required: false
+  label: artist
+- name: year
+  type: text
+  config:
+    required: false
+  label: year
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: image
