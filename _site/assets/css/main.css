@@ -25,11 +25,19 @@ svg { width: 3rem; }
 
 @media only screen and (max-width: 728px) { .header_container { padding: 25px 0 25px 0; } }
 
-footer { background-color: #202020; }
+footer { background-color: #202020; margin: auto; }
 
 .footer_title { color: white; padding: 50px 0 50px 0; text-align: center; }
 
-.featured_image { position: fixed; z-index: -100; opacity: .8; }
+.newsletter_container { padding: 20px; text-align: center; height: 200px; }
+
+.featured_image { position: fixed; z-index: -100; opacity: 0.8; }
+
+.featured_image img { width: 100vw; }
+
+@media only screen and (max-width: 728px) { .featured_image img { width: auto; height: 100vh; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .featured_image img { width: auto; height: 100vh; } }
 
 article { width: 45%; margin: auto; }
 
@@ -90,6 +98,8 @@ article h2 a:hover { text-decoration: line-through; }
 img:hover { opacity: .5; }
 
 @media only screen and (max-width: 728px) { .art_title img { max-height: 100%; width: 100%; } }
+
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .art_title img { max-height: 100%; width: 80%; } }
 
 .page_content { text-align: left; padding: 150px 0 150px 0; width: 80%; margin: auto; }
 

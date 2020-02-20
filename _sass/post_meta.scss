@@ -67,3 +67,12 @@
 
     }
   }
+
+
+  @media only screen and (max-width: 1024px) and (min-width: 729px) {
+    .art_title img {
+max-height: 100%;
+      width: 80%;
+
+    }
+  }

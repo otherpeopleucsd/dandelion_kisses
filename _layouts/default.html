@@ -15,7 +15,6 @@
   <body>
     <div class="featured_image">
       <img src="{{site.baseurl}}/assets/images/003.jpg">
-
     </div>
 
 
@@ -24,7 +23,7 @@
     <div class="post_container">
       <div class="category_header">RECENT POETRY</div>
 
-      {% for post in site.categories.poetry %}
+      {% for post in site.categories.poetry limit:3 %}
 
       <article>
 
@@ -54,7 +53,7 @@
       <div class="art_subcontainer">
 
 
-        {% for post in site.categories.art %}
+        {% for post in site.categories.art limit:4 %}
 
         <article>
 
