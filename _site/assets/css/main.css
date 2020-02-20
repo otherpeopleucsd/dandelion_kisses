@@ -153,4 +153,10 @@ article h2 a:hover { text-decoration: line-through; }
 
 @media only screen and (max-width: 728px) { .PageNavigation { padding-bottom: 15px; } }
 
+.newsletter { padding: 100px 0 150px 0; color: #202020; width: 100%; text-align: center; background-color: #f8f0eb; }
+
+input[type=text] { width: 30%; padding: 12px 20px; font-size: .9rem; margin: 8px 0; box-sizing: border-box; border: none; background-color: white; color: #202020; }
+
+@media only screen and (max-width: 728px) { input[type=text] { width: 80%; } }
+
 /*# sourceMappingURL=main.css.map */
