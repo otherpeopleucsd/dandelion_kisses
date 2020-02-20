@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Vollkorn:400,400i,700,700i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,700,700i&display=swap");
 @font-face { font-family: "basier_circleregular"; src: url("../../assets/fonts/basiercircle-regular-webfont.eot"); src: url("../../assets/fonts/basiercircle-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/basiercircle-regular-webfont.woff2") format("woff2"), url("../assets/fonts/basiercircle-regular-webfont.woff") format("woff"), url("../../assets/fonts/basiercircle-regular-webfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 
 body { background: white; color: #202020; font-family: "basier_circleregular"; font-size: 0.9rem; margin: 0; padding: 0; }
@@ -7,7 +8,7 @@ h1 { font-family: "Vollkorn", serif; font-style: italic; font-weight: 100; font-
 
 h2 { font-family: "basier_circleregular"; text-transform: uppercase; font-size: .9rem; }
 
-p { line-height: 25px; }
+p { font-family: 'Cormorant Garamond', serif; font-weight: 500; line-height: 2rem; font-size: 1.3rem; }
 
 a { color: #202020; }
 

@@ -18,33 +18,33 @@
       <img class="image" src="{{site.baseurl}}{{ page.image }}" alt="Image" />
       {% endif %}
 
-     
+
     </div>
 
 
     <div class="featured_imageinfo">
       <b>{%- if page.piece_name -%}
-      {% for piece_name in page.piece_name %}
-      <span itemprop="piece_name" itemscope itemtype="http://schema.org/Person">
+        {% for piece_name in page.piece_name %}
+        <span itemprop="piece_name" itemscope itemtype="http://schema.org/Person">
           <span class="p-piece_name h-card" itemprop="name">{{ piece_name }} </span></span>
-      {%- if forloop.last == false %}, {% endif -%}
-      {% endfor %}
-      {%- endif -%}</b>
+        {%- if forloop.last == false %}, {% endif -%}
+        {% endfor %}
+        {%- endif -%}</b>
 
 
-<br>
+      <br>
       {%- if page.artist -%}
       {% for artist in page.artist %}
       <span itemprop="artist" itemscope itemtype="http://schema.org/Person">
-          <span class="p-artist h-card" itemprop="name">{{ artist }} </span></span>
+        <span class="p-artist h-card" itemprop="name">{{ artist }} </span></span>
       {%- if forloop.last == false %}, {% endif -%}
       {% endfor %}
       {%- endif -%}
-, 
+      ,
       {%- if page.year -%}
       {% for year in page.year %}
       <span itemprop="year" itemscope itemtype="http://schema.org/Person">
-          <span class="p-year h-card" itemprop="name">{{ year }} </span></span>
+        <span class="p-year h-card" itemprop="name">{{ year }} </span></span>
       {%- if forloop.last == false %}, {% endif -%}
       {% endfor %}
       {%- endif -%}
@@ -57,7 +57,12 @@
     <div class="post_container">
       <div class="category_header">LTERATURE + POETRY</div>
 
-      {% for post in site.categories.poetry, site.categories.literature limit:3 %}
+
+
+      {% for post in site.posts limit:4 %}
+      {% if post.categories contains "poetry" or post.categories contains "literature" %}
+
+
 
       <article class="post">
 
@@ -76,6 +81,7 @@
               datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time></div>
 
       </article>
+      {% endif %}
       {% endfor %}
 
       <div class="category_footer"><a href="{{{ site.url }}{{ site.baseurl }}/poetry">SEE MORE</a>
