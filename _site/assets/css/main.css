@@ -88,27 +88,39 @@ article h2 a:hover { text-decoration: line-through; }
 
 .post_date { padding-left: 15px; font-size: 0.9rem; color: #909090; font-family: "basier_circleregular"; }
 
-.post_title { font-family: "Vollkorn", serif; font-style: italic; font-weight: 100; font-size: 3rem; text-decoration: none; color: #202020; line-height: 4rem; margin: auto; }
+.post_title { font-family: "Vollkorn", serif; font-style: italic; font-weight: 100; font-size: 3rem; text-decoration: none; color: #202020; line-height: 4rem; }
 
 .post_title a { text-decoration: none; color: #202020; }
 
 .post_title a:hover { text-decoration: line-through; }
 
-.art_title { font-family: "Vollkorn", serif; font-style: italic; font-weight: 100; font-size: 3rem; text-decoration: none; color: #ffffff; line-height: 4rem; margin: auto; }
+.post_title_index { font-family: "Vollkorn", serif; font-style: italic; font-weight: 100; font-size: 3rem; text-decoration: none; color: #202020; line-height: 4rem; margin: auto; }
+
+.post_title_index a { text-decoration: none; color: #202020; }
+
+.post_title_index a:hover { text-decoration: line-through; }
+
+.art_title { font-family: "Vollkorn", serif; font-style: italic; font-weight: 100; font-size: 3rem; text-decoration: none; color: #ffffff; line-height: 4rem; }
 
 .art_title a { text-decoration: none; color: #ffffff; }
 
 .art_title a:hover { text-decoration: line-through; }
 
-.art_title img { max-height: 300px; }
+.art_title_index { font-family: "Vollkorn", serif; font-style: italic; font-weight: 100; font-size: 3rem; text-decoration: none; color: #ffffff; line-height: 4rem; margin: auto; }
+
+.art_title_index a { text-decoration: none; color: #ffffff; }
+
+.art_title_index a:hover { text-decoration: line-through; }
+
+.art_title_index img { max-height: 300px; }
 
 img:hover { opacity: 0.5; }
 
-@media only screen and (max-width: 728px) { .art_title img { max-height: 100%; width: 100%; }
-  .art_title { width: 100%; }
-  .post_title { width: 50%; } }
+@media only screen and (max-width: 728px) { .art_title_index img { max-height: 100%; width: 100%; }
+  .art_title_index { width: 100%; }
+  .post_title_index { width: 50%; } }
 
-@media only screen and (max-width: 1024px) and (min-width: 729px) { .art_title img { max-height: 100%; width: 80%; } }
+@media only screen and (max-width: 1024px) and (min-width: 729px) { .art_title_index img { max-height: 100%; width: 80%; } }
 
 .page_content { text-align: left; padding: 150px 0 50px 0; width: 80%; margin: auto; }
 
