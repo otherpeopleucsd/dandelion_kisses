@@ -168,7 +168,7 @@ article h2 a:hover { text-decoration: line-through; }
 
 .newsletter_container { color: #202020; width: 100%; text-align: center; background-color: #f2e8de; height: auto; margin: auto; position: relative; overflow: hidden; }
 
-.newsletter_container img { width: auto; z-index: -1; margin: auto; max-height: 400px; }
+.newsletter_container img { width: auto; z-index: -1; margin: auto; max-height: 480px; margin-bottom: -5px; }
 
 input[type="text"] { width: 80%; padding: 12px 20px; font-size: 0.9rem; margin: 8px 0; box-sizing: border-box; border: none; background-color: white; color: #202020; }
 
