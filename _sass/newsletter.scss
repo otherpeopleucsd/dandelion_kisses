@@ -1,29 +1,49 @@
-.newsletter {
-    padding: 100px 0 150px 0;
-    color: #202020;
-width: 100%;
-text-align: center;
-background-color: rgb(248, 240, 235);
+.newsletter_container {
+  color: #202020;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(242, 232, 222);
+  height: auto;
+  margin: auto;
+  position: relative;
+
 }
 
-input[type=text] {
-    width: 30%;
-    padding: 12px 20px;
-    font-size: .9rem;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    background-color: rgb(255, 255, 255);
-    color: #202020;
+.newsletter_container img {
+  width: auto;
+  z-index: -1;
+  margin: auto;
+  max-height: 400px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 12px 20px;
+  font-size: 0.9rem;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  color: #202020;
+}
+
+.newsletter {
+  position: absolute;
+  margin: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 728px) {
+    
+
+  .newsletter_container img {
+    width: auto;
+
+  }
+  input[type="text"] {
+    width: 100%;
   }
 
-
-  @media only screen and (max-width: 728px) {
-    .newsletter {
-        padding: 50px 0 100px 0;
-    }
-    input[type=text] {
-        width: 80%;
-
-      }
-  }
+}

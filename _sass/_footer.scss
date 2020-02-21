@@ -1,42 +1,36 @@
 footer {
-    background-color: #202020;
-margin: auto;
-padding: 50px 0 50px 0;
-
+  background-color: #202020;
+  margin: auto;
+  padding: 50px 0 50px 0;
 }
 
 .footer_title {
+  color: white;
 
-    color: white;
-
-    text-align: center;
-
+  text-align: center;
 }
 
 .newsletter_container {
-    margin: auto;
-    width: 100%;
-    text-align: center;
-
+  margin: auto;
+  width: 100%;
+  text-align: center;
 }
 
 .fixed_footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 90%;
-    margin: auto;
-    left: 0;
-    right: 0;
-padding: 0 0 50px 0;
-    color: #202020;
-    text-align: left;
-
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 90%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  padding: 0 0 50px 0;
+  color: #202020;
+  text-align: left;
 }
 
 @media only screen and (max-width: 728px) {
-    .fixed_footer {
-     padding: 25px 0 25px 0;
-    } 
- }
- 
+  .fixed_footer {
+    padding: 25px 0 25px 0;
+  }
+}
