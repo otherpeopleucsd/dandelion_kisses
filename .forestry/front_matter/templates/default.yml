@@ -22,6 +22,11 @@ fields:
   config:
     maxSize: 250
   label: image
+- name: newsletter_background
+  type: file
+  config:
+    maxSize: 250
+  label: newsletter background
 - name: layout
   type: text
   config:
