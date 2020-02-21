@@ -166,7 +166,7 @@ article h2 a:hover { text-decoration: line-through; }
 
 @media only screen and (max-width: 728px) { .PageNavigation { padding-bottom: 15px; } }
 
-.newsletter_container { color: #202020; width: 100%; text-align: center; background-color: #f2e8de; height: auto; margin: auto; position: relative; }
+.newsletter_container { color: #202020; width: 100%; text-align: center; background-color: #f2e8de; height: auto; margin: auto; position: relative; overflow: hidden; }
 
 .newsletter_container img { width: auto; z-index: -1; margin: auto; max-height: 400px; }
 
